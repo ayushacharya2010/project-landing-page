@@ -1,2 +1,2 @@
 # project-landing-page
-Odin landing page website template
+When the Odin Project curriculum introduced this project and suggested that one can substitute the template for a buisness idea of their choosing, I knew exactly what to do! With the help of the Odin Project's guidance, I created this project landing page as a landing page to the rewards program of a hypothetical food truck called "Adrian's Mediterranean Grill" in front of the Florida Aquarium in Tampa. I came up with this food truck idea in 7th grade for my "Exploring Buisness Application" class and I was thrilled to revisit it. I love that I have been able to create a personalized, stylish webpage within just a couple weeks of starting to learn HTML.
