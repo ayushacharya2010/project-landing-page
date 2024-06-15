@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .content {
@@ -41,6 +41,11 @@ li {
     margin: 12px;
 }
 
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
 /* STUFF DIRECTLY UNDER HEADER */
 
 .intro {
@@ -48,7 +53,7 @@ li {
     flex-direction: row;
     background-color: #1F2937;
     padding: 5vw 10vw;
-    gap: 10vw;
+    gap: 2vw;
 }
 
 .intro-left {
@@ -83,13 +88,10 @@ li {
     justify-content: center;
     align-items: center;
     height: 250px;
-    width: 500px;
-    background-color: #666;  
-}
-
-.imgplaceholder1text {
-    color: #E5E7EB;
-    font-size: 14px;
+    width: auto;
+    background-color: transparent;  
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 /* INFORMATION */
@@ -100,7 +102,6 @@ li {
     justify-content: center;
     align-items: center;
     padding: 5vw 10vw;
-
 }
 
 .header2 {
@@ -121,9 +122,91 @@ li {
 
 img {
     margin: 0 10px;
+    border-radius: 10px;
 }
 
 .subtext {
     text-align: center;
     text-wrap: wrap;
+    max-width: 200px;
+    margin: 10px auto;
+}
+
+/* QUOTE */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 5vw 10vw;
+    gap: 1vw;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.quote-attribution {
+    font-size: 20px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 900;
+    margin-left: 60vw;
+}
+
+/* FINAL SECTION - CALL TO ACTION */
+
+.final-section {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    margin: 5vw 10vw;
+    padding: 2vw 4vw;
+    border-radius: 5px;
+}
+
+.final-section-content {
+    color: #E5E7EB;
+}
+
+.final-header {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.final-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.signup2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    margin-left: auto;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh;
+}
+
+.copyright {
+    color: #E5E7EB;
 }
